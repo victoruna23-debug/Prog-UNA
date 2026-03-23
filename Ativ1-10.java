@@ -9,7 +9,7 @@ public class Main
 		
 		while(menuativ != 0)
 		{
-		    System.out.println("Atividade:");
+		    System.out.println("Atividade Hands On:");
 		    System.out.println("0 - Sair.");
 		    System.out.println(" ");
 		    
