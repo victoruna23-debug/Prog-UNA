@@ -363,6 +363,13 @@ public class Main
 		                }
 		                
 		            }
+					System.out.println("Saldo atual: R$ "+accbal);
+		                    System.out.println("Pressione ENTER para continuar");
+		                try{
+		            System.in.read();
+		            }
+		            catch(Exception e){
+		            }
 		        }
 		        if(menuativ == 7){
 		            System.out.println("Exercício 7: Desconto por Categoria");
