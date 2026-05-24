@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+
+public class Ativ51 {
+
+    
+    public static void main(String[] args) {
+        
+        ArrayList compras = new ArrayList();
+        
+        compras.add("Queijo Prato");
+        compras.add("Queijo Minas");
+        compras.add("Queijo Muçarela");
+        compras.add("Queijo Brie");
+        compras.add("Queijo Azul");
+        
+        System.out.print("Lista: ");
+        System.out.println(compras);
+        System.out.print("Total: ");
+        System.out.println(compras.size());
+    }
+    
+}

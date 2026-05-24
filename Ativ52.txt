@@ -1,0 +1,32 @@
+import java.util.ArrayList;
+
+public class Ativ52 {
+
+    
+    public static void main(String[] args) {
+        
+        ArrayList<Double> notas = new ArrayList();
+        
+        notas.add(10.0);
+        notas.add(9.0);
+        notas.add(8.0);
+        notas.add(7.0);
+        
+        double meidiam = 0;
+        
+        for (Double nota : notas) {
+            meidiam += nota;
+        }
+        
+        meidiam = meidiam/notas.size();
+        
+        if(meidiam>=7){
+            System.out.println("Média maior que 7");
+        }else{
+            System.out.println("Tudo bomba");
+        }
+        
+        
+    }
+    
+}

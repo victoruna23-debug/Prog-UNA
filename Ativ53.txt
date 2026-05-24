@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+import java.util.HashSet;
+
+public class JavaApplication17 {
+
+    
+    public static void main(String[] args) {
+        
+        HashSet<String> presunto = new HashSet();
+        
+        presunto.add("Queijovaldo");
+        presunto.add("Presuntilda");
+        presunto.add("Presuntilda");
+        presunto.add("Spagêncio");
+        presunto.add("Queijovaldo");
+        
+        System.out.print("Alunos: ");
+        System.out.println(presunto);
+        System.out.print("Presentes: ");
+        System.out.println(presunto.size());
+    }
+    
+}
